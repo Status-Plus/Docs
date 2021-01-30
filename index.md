@@ -300,3 +300,10 @@ DowntimeService.GetThumbnailsAPIStatus() -- returns "up" if the API is up, "down
 ```
 
 <hr>
+
+
+## Status+ API
+
+The API for the Status Site is simple. You can find it under the [/api](https://github.com/Status-Plus/StatusPlus/tree/master/api) folder under it's [GitHub repo](https://github.com/Status-Plus/StatusPlus). 
+
+There is currently only one way of getting the current status through API, [however this **is** being worked on](). If you need to get the current status, please use [Summary.json](https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/history/summary.json).
