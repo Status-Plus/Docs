@@ -126,7 +126,7 @@ DowntimeService.GetAvatarAPIStatus() -- returns "up" if the API is up, "down" if
 <hr>
 
 
-### `.GetBadgeAPIStatus()`
+### `.GetBadgesAPIStatus()`
 
 Returns `"up"`, `"degraded"`, or `"down"` based on the status of Roblox's [Badge API](https://badges.roblox.com/v1/badges/2124548403).  
 
@@ -135,7 +135,7 @@ Example Use:
 
 ```lua
 
-DowntimeService.GetBadgeAPIStatus() -- returns "up" if the API is up, "down" if the API is down, and "degraded" if the API is slow.
+DowntimeService.GetBadgesAPIStatus() -- returns "up" if the API is up, "down" if the API is down, and "degraded" if the API is slow.
 
 ```
 
