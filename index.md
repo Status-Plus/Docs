@@ -205,6 +205,20 @@ DowntimeService.GetDevelopAPIStatus() -- returns "up" if the API is up, "down" i
 
 <hr>
 
+### `.GetEconomyAPIStatus()`
+
+Returns `"up"`, `"degraded"`, or `"down"` based on the status of Roblox's [Economy API](https://economy.roblox.com/).  
+
+
+Example Use:
+
+```lua
+
+DowntimeService.GetEconomyAPIStatus() -- returns "up" if the API is up, "down" if the API is down, and "degraded" if the API is slow.
+
+```
+
+<hr>
 
 ### `.GetFriendsAPIStatus()`
 
@@ -237,6 +251,21 @@ DowntimeService.GetGameJoinAPIStatus() -- returns "up" if the API is up, "down" 
 
 <hr>
 
+
+### `.GetGameInternationalizationAPIStatus()`
+
+Returns `"up"`, `"degraded"`, or `"down"` based on the status of Roblox's [Game Internationalization API](https://gameinternationalization.roblox.com/).  
+
+
+Example Use:
+
+```lua
+
+DowntimeService.GetGameJoinAPIStatus() -- returns "up" if the API is up, "down" if the API is down, and "degraded" if the API is slow.
+
+```
+
+<hr>
 
 ### `.GetGroupsAPIStatus()`
 
