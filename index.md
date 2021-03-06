@@ -62,6 +62,22 @@ end
 
 <hr>
 
+
+### `.GetRobloxStatus()`
+
+Returns `"up"`, `"degraded"`, or `"down"` based on the status of **every single API endpoint** tracked by Status+. 
+
+
+Example Use:
+
+```lua
+
+DowntimeService.GetRobloxStatus() -- returns "up" if all API's are up, "down" if at least one API is down, and "degraded" if at least one API is degraded.
+
+```
+
+<hr>
+
 ### `.GetSiteStatus()`
 
 Returns `"up"`, `"degraded"`, or `"down"` based on the status of the Roblox site. 
